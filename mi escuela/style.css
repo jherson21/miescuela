@@ -1,0 +1,329 @@
+
+body {
+     
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+    background: linear-gradient(90deg, #060606,black);
+    height: 100vh;
+}
+
+section> h2{
+    color: white;
+    position: absolute;  
+    left: 74%;
+    top: 2%;
+}
+.link{
+   
+ 
+    color:rgb(253, 250, 250);
+    
+    position: absolute;
+    top:1%;
+    left:80%;
+    
+  
+   
+    
+ 
+    
+}
+a.lin{
+    color:rgb(41, 34, 34);
+    background-color: white;
+    position: absolute;
+    top: 3%;
+    left: 60%;
+    
+    border-radius: 23px;
+    font-size: 15px;
+    cursor: pointer 100%;
+    outline:none;
+    height: 60px;
+    
+    
+}
+
+
+
+.formulario{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: white;
+    border-radius: 55px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding: 0 0 20px 0;
+    border-bottom: 1px solid silver;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid #adadad;
+    margin: 30px 0;
+    
+
+
+}
+form .username{
+        position: relative;
+        border-bottom: 2px solid #adadad;
+        margin: 30px 0;
+}
+
+.username input{
+    width: 100%;
+    padding:0 5px;
+    height: 40px;
+    font-size: 16 px;
+    border: none;
+    background: none;
+    outline: none;
+
+}
+.username label{
+    position: absolute;
+    top:50%;
+    left: 5px;
+    color:#adadad
+    transform:transla¿¿¿
+    font-size: 16px;
+    pointer-events: none;
+    transition: .3s;
+
+ }
+ .username span::before{
+    
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100   %;
+    height: 2px;
+    background:#6c3483
+
+    
+
+ } 
+
+
+.username input:focus~span::before,
+.username input:focus~span::before{
+    width: 100%;
+}
+
+.recordar:{
+
+    margin: -5px 0 20px 5px;
+    color:blue;
+    cursor: pointer;
+}
+.recordar::hover{
+    text-decoration: underline;
+
+}
+
+.inicio1
+{
+    border-color:rgb(242, 234, 12);
+    transition: .5s;
+    text-decoration: none;
+
+}
+.registrarse{
+    margin: 30px 0;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+
+}
+
+.registrarse a{
+    color: blue;
+    text-decoration:none;
+
+}
+
+.registrarse a:hover{
+    text-decoration:underline
+}
+section > h1{
+
+    color:beige;
+    background:linear-gradient(95deg,#ff0101,rgba(133, 117, 24, 0));
+    width: 10%;
+    height: 50%;
+    
+
+
+    color: rgb(255, 255, 255);
+    cursor: pointer 100%;
+    outline:none;
+    
+    
+
+
+
+}
+
+section >h3{
+    color: white;
+    background:linear-gradient(95deg,#e30303,#f3e30300);
+    width: 20%;
+    height: 50%;
+
+
+}
+
+section>p{
+    color: white    ;
+}
+
+li{
+    color: white;
+}
+
+.hola1   {
+    color:rgb(41, 34, 34);
+    color:rgb(41, 34, 34);
+    background-color: white;
+    position: absolute;
+    top:90%;
+    left: 48%;
+    
+    border-radius: 10px;
+    font-size:20px;
+    cursor: pointer 100%;
+    outline:none;
+    height: 30px;
+    background:linear-gradient(90deg, #0b0c0c, #0a0a0a);
+    }
+    section>p{
+
+color: white;
+    }
+   .perrito1{
+    border-radius: 9px;
+    position: absolute;
+    top:0%;
+    left: 86%;
+  }
+   .perrito2{
+    
+    position: absolute;
+    top:20%;
+    left: 81%;
+    
+   }
+   .somos2{
+    color:rgb(248, 245, 245);
+    
+    position: absolute;
+    top:10%;
+    left:80%;
+    
+   
+}
+.personita1{
+
+    position: absolute;
+    top:0%;
+    left: 10%;
+ 
+}
+.libro1{
+    position: absolute;
+    top: 64%;
+    left: 22%;
+}
+
+.registro1{
+    position: absolute;
+    top:27%;
+    left: 15%;
+}
+.maps1{
+    position:absolute;
+    top: 42%;
+    left:20%;
+
+}
+.youtube{
+    border-radius: 6px;
+    padding: 2px;
+    background-color: #adadad;
+    position: absolute;
+    top: 130%;
+    left: 1%;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ff0101;
+}
+.facebook{
+    border-radius: 6px;
+    padding: 2px;
+    background-color: #adadad;
+    position: absolute;
+    top: 130%;
+    left: 6%;
+    display: inline-block;
+    text-align:center ;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(4, 4, 102);
+}
+.whatsApp{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: green;
+    display: inline-block;
+    position: absolute;
+    top: 130%;
+    left: 12%;
+    border-radius: 6px;
+    padding: 2px;
+    background-color: #adadad;
+
+}
+.contactanos{
+    position: absolute;
+    top: 92%;
+    left: %;
+}
+.a1{
+    color: rgb(255, 250, 250);
+    background-color: black;
+    border-radius:10px ;
+    text-align: center;
+    width: 300px;
+    height: 20px;
+    text-decoration: NONE;
+    transition: 1s ;
+    position: absolute;
+    top: 85%;
+
+}
+.video1{
+    position: absolute;
+    top: 20%;
+    left: 58%;
+}
+.video2{
+    position: absolute;
+    top: 85%;
+    left: 58%;
+}
+
